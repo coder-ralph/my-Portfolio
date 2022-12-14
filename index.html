@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <script src="script.js" defer></script>
+    <title>Ralph Rosael | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-nav">
+        <div class="nav-logo">
+          <!-- You can put a logo here -->
+          <h1> |< devralph |> </h1>
+          <!-- you can remove this -->
+        </div>
+
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        ></button>
+
+        <ul id="primary-nav" class="primary-nav" data-visible="false">
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-text-container">
+            <p>Hey there,</p>
+            <h2>I am Ralph</h2>
+            <p>a web developer.</p>
+          </div>
+          <a href="#contact" class="hero-button">Let's connect!</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-highlight">ABOUT</div>
+        <div class="about-container">
+          <div class="about-card">
+            <section class="about-content">
+              <h2>> About</h2>
+              <!-- About template -->
+              <p>
+                I design and develop things for the web.
+              </p>
+              <p>I am a person who loves to explore things especially when it comes to technology.</p>
+            </section>
+
+            <section class="about-content tech-stack-section">
+              <h3>My current tech stack</h3>
+              <div class="tech-stack-grid">
+                <div class="tech-stack">
+                  <img src="./assets/icons/html5.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/css.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/javascript.svg" alt="html5-icon" />
+                </div>
+
+                <div class="tech-stack">
+                  <img src="./assets/icons/react.svg" alt="html5-icon" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Start of Portfolio -->
+      <section id="portfolio">
+        <div class="section-highlight">Portfolio</div>
+        <div class="portfolio-container">
+          <div class="portfolio-card">
+            <div class="portfolio-content">
+              <h2>> Portfolio</h2>
+
+              <!-- input projects inside project container -->
+              <div class="project-container">
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/project-2.png"
+                    alt="project-1"
+                  />
+                  <h3>UA-TechEd e-Learning</h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque egestas ornare lorem ullamcorper gravida. In
+                    venenatis in diam ut tempor.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://ua-tech-ed-e-learning.vercel.app" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="#">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+
+                <section class="project-card">
+                  <img
+                    class="project-img"
+                    src="./assets/images/project-1.png"
+                    alt="project-1"
+                  />
+                  <h3>Weather Forecast App </h3>
+                  <h5>Project description</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque egestas ornare lorem ullamcorper gravida. In
+                    venenatis in diam ut tempor.
+                  </p>
+
+                  <div class="project-card-links">
+                    <a href="https://weather-forecast-app-by-coder-ralph.vercel.app" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/live-demo.svg"
+                        alt="live-demo"
+                      />
+                      Live demo
+                    </a>
+                    <a href="https://github.com/coder-ralph/weather-forecast-app" target="_blank">
+                      <img
+                        class="project-icons"
+                        src="./assets/icons/github-icon.svg"
+                        alt="live-demo"
+                      />
+                      Repository
+                    </a>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Portfolio -->
+
+      <!-- Start of Achievements and Certificates -->
+      <section id="portfolio">
+        <div class="section-highlight"> Achievements and Certificates</div>
+        <div class="portfolio-container">
+          <div class="portfolio-card">
+            <div class="portfolio-content">
+              <h2> > Achievements and Certificates</h2>
+              <h5> ‣ Cisco Networking Academy</h5>
+                  <p>
+                    • Certificate of Completion - Introduction to Cybersecurity Course
+                  </p>
+                  <p>
+                    • Certificate of Completion - NDG Linux Essentials Course
+                  </p>
+                  <p>
+                    • Certificate of Completion - Entrepreneurship Course
+                  </p>
+                  <p>
+                    • Statement of Achievement - PCAP Graduate: Programming Essentials in Python Course in collaboration with OpenEDG JavaScript Institute
+                  </p>
+                  <p>
+                    • Certificate of Completion - Introduction to Internet of Things Course
+                  </p>
+
+                  <h5> ‣ AWS Academy</h5>
+                  <p>
+                    • Certificate of Completion - AWS Academy Graduate - AWS Academy Cloud Foundations
+                  </p>
+                  <p>
+                    • Certificate of Completion - AWS Academy Graduate - AWS Academy Machine Learning Foundations
+                  </p>
+
+                  <h5> ‣ Udemy</h5>
+                  <p>
+                    • Certificate of Completion - Learn MySQL - For Beginners
+                  </p>
+                  <p>
+                    • Certificate of Completion - HTML & CSS - Certification Course for Beginners
+                  </p>
+                  <p>
+                    • Certificate of Completion - FullStack Application Spring Boot and React
+                  </p>
+                  <p>
+                    • Certificate of Completion - Facebook Chat Bot in Python from Scratch
+                  </p>
+                  <p>
+                    • Certificate of Completion - Complete JavaScript, XML, AJAX, and React Bootcamp Hands-On
+                  </p>
+                  <p>
+                    • Certificate of Completion - Complete Ethical Hacking Course | Bug Bounty
+                  </p>
+                  <p>
+                    • Certificate of Completion - Android Application Development Certification 2021
+                  </p>
+                  <p>
+                    • Certificate of Completion - Project Development Using JAVA for Beginners
+                  </p>
+                  
+                  <h5> ‣ freeCodeCamp</h5>
+                  <p>
+                    • Certificate of Completion - Responsive Web Design
+                  </p>
+
+                  <h5> ‣ CodeRed - EC-Council</h5>
+                  <p>
+                    • Certificate of Achievement - Ethical Hacking Essentials Course
+                  </p>
+                  <p>
+                    • Certificate of Achievement - Introduction to TypeScript Course
+                  </p>
+
+                  <h3> > Workshops, Trainings, and Webinars</h3>
+                  <p>
+                    • Certificate of Participation - Philippine Skilling Summit 2022 - Dynamics 365 Track
+                  </p>
+                  <p>
+                    • Certificate of Participation - Philippine Skilling Summit 2022 - Internet of Things Track
+                  </p>
+                  <p>
+                    • Certificate of Participation - Tech Trends: Blockchain (Basic Session, DICT) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - Tech Trends: Data Analytics (Basic Session, DICT)
+                  </p>
+                  <p>
+                    • Certificate of Participation - A Day in the Life of a Developer by Guest Speaker Morgan Lopes (Zuitt)
+                  </p>
+                  <p>
+                    • Certificate of Attendance - Cisco Python (Mapua CCESC) 
+                  </p>
+                  <p>
+                    • Certificate of Attendance - Enable Digital Transformation with Introduction to Internet of Things (Mapua CCESC) 
+                  </p>
+                  <p>
+                    • Certificate of Attendance - Introduction to Angular 
+                  </p>
+                  <p>
+                    • Certificate of Attendance - JavaStart(): v2.0
+                  </p>
+                   <p>
+                    • Certificate of Attendance - Intro to C# with Ethical Hacking 
+                  </p>
+                   <p>
+                    • Certificate of Attendance - Dark Web - Cyber Security 
+                  </p>
+                   <p>
+                    • Certificate of Attendance - Cyber Security: Ethical Hacking (Brute Force Attack Demonstration) 
+                  </p>
+                   <p>
+                    • Certificate of Attendance - CompTIA Pentest + Workshop (TechEd Global Academy)
+                  </p>
+                  <p>
+                    • Certificate of Attendance - Free HTML + CSS Workshop (Uplift Code Camp)
+                  </p>
+                  <p>
+                    • Certificate of Participation - How to grow and level-up your I.T. career by becoming CCNA (Tech Academy) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - I.T. Certifications: Your Next Step After CCNA (Tech Academy) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - Security Operations Center: How To Become A SOC Analyst (Tech Academy) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - Python Programming Fundamentals (Core360) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - Exploring Python Database Programming (Core360) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - Exploring Python Sockets, Network Communication and Web Scraping (Core360) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - Zuitt Open House: Free Basic Web Development Crash Course (Zuitt Coding Bootcamp) 
+                  </p>
+                  <p>
+                    • Certificate of Participation - FullStack Dev in Minutes: real-time Apps with Rest APIs
+                  </p>
+                  <p>
+                    • Certificate of Completion - Funky Flutter PH Fest 
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Achievements and Certificates-->
+
+      <!-- Start of Contact -->
+      <section id="contact">
+        <h2 class="section-highlight">Contacts</h2>
+        <div class="contact-container">
+          <div class="contact-card">
+            <h2>> Contacts</h2>
+            <p>You can contact directly me through these following links</p>
+
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/ralphrosael" target="_blank">
+                <img
+                  class="contact-icons"
+                  src="./assets/icons/linkedin-icon.svg"
+                  alt="linkedin-icon"
+                />
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        Developed by 
+        <a href="https://github.com/coder-ralph" target="_blank">Ralph Rosael</a>
+        & Template made by
+        <a href="https://github.com/chaaals" target="_blank">Charles Ching</a>
+      </div>
+    </footer>
+  </body>
+</html>
